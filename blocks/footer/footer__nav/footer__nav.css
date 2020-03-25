@@ -1,0 +1,16 @@
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*мобильные устройства 1-2 */
+
+@media screen and (max-width: 724px) {
+    .footer__nav {
+        flex-direction: column;
+    }
+}

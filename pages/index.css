@@ -1,0 +1,62 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comment/comment.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video-item/video-item.css);
+
+/*div,
+main,
+body,
+header,
+footer,
+section,
+article,
+nav,
+h1,
+h2,
+h3,
+p,
+img,
+a,
+.header__title,
+.logo,
+.lead,
+.lead__figure,
+.section-title,
+.section-subtitle,
+.feinman,
+.feinman__title,
+.cards,
+.cards__image,
+.cards__item,
+.cards__title,
+.cards__description,
+.video,
+.video__iframes,
+iframe,
+.two-columns,
+.two-columns__brief {
+    border: 1px solid red;
+}*/
+
+.page {
+    font-family: 'Inter', 'Arial', 'sans-serif';
+    color: #fff;
+    font-weight: 400;
+    background-color: #2A2C2F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}

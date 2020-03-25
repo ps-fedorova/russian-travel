@@ -1,0 +1,39 @@
+@import url(./header__container/header__container.css);
+@import url(./__lang/header__lang.css);
+@import url(./__logo/header__logo.css);
+.header {
+    max-width: calc(1440px - (128px * 2));
+    min-height: 52px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 128px 0;
+}
+
+
+/*планшет 4, компьютер 5  */
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+    .header {
+        padding: 30px 48px 0;
+    }
+}
+
+
+/*большой смартфон 3 */
+
+@media screen and (min-width: 426px) and (max-width: 800px) {
+    .header {
+        padding: 30px 24px 0;
+    }
+}
+
+
+/*мобильные устройства 1-2 */
+
+@media screen and (max-width: 425px) {
+    .header {
+        padding: 16px 16px 0;
+    }
+}

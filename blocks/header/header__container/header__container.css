@@ -1,0 +1,9 @@
+.header__container {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-column-gap: 18px;
+}
+
+.header__container {
+    grid-column-gap: 16px;
+}

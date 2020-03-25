@@ -1,0 +1,9 @@
+.place__url {
+    font-size: 1.125em;
+    line-height: calc(30 / 18);
+    color: white;
+}
+
+.place__url:hover {
+    opacity: 0.5;
+}

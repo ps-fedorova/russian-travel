@@ -1,0 +1,30 @@
+.footer__link {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 18px;
+    list-style: none;
+}
+
+.footer__link:hover {
+    opacity: .5;
+}
+
+
+/*большой смартфон 3 */
+
+@media screen and (min-width: 725px) and (max-width: 1000px) {
+    .footer__link {
+        font-size: 1em;
+    }
+}
+
+
+/*мобильные устройства 1-2 */
+
+@media screen and (max-width: 724px) {
+    .footer__link {
+        font-size: 1.5em;
+        line-height: 2.5em;
+    }
+}

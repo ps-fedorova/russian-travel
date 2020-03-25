@@ -1,0 +1,22 @@
+.place__paragraph {
+    margin: 0;
+    font-size: 1.125em;
+    line-height: calc(30 / 18);
+}
+
+.place__paragraph:nth-of-type(2) {
+    margin-top: 36px;
+}
+
+@media (max-width: 1279px) {
+    .place__paragraph:nth-of-type(2) {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 1em;
+        line-height: 169.43%;
+    }
+}

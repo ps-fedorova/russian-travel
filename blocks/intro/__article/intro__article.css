@@ -1,0 +1,12 @@
+.intro__article {
+    max-width: 683px;
+}
+
+
+/*большой смартфон 3 */
+
+@media screen and (min-width: 426px) and (max-width: 1000px) {
+    .intro__article {
+        max-width: 720px;
+    }
+}

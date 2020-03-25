@@ -1,0 +1,36 @@
+@import url(./__article/intro__article.css);
+@import url(./__title/intro__title.css);
+@import url(./__icontent-row/intro__content-row.css);
+@import url(./__text/intro__text.css);
+@import url(./__list-item/intro__list-item.css);
+@import url(./__paragraph/intro__paragraph.css);
+.intro {
+    max-width: 984px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
+
+/*большой смартфон 3 */
+
+@media screen and (min-width: 426px) and (max-width: 1000px) {
+    .intro {
+        max-width: 720px;
+        padding: 80px 24px 0;
+    }
+}
+
+
+/*мобильные устройства 1-2 */
+
+@media screen and (max-width: 425px) {
+    .intro {
+        padding: 64px 16px 0;
+    }
+}

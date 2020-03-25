@@ -1,0 +1,22 @@
+.video-item__duration {
+    font-weight: 500;
+    color: #fff;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    font-size: 12px;
+    margin: auto auto 12px 30px;
+    position: relative;
+    z-index: 3;
+}
+
+@media (max-width:1023px) {
+    .video-item__duration {
+        margin: auto auto 8px 24px;
+    }
+}
+
+@media (max-width:374px) {
+    .video-item__duration {
+        margin: auto auto 8px 16px;
+    }
+}
