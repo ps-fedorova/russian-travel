@@ -20,7 +20,7 @@
     color: #fff;
     max-width: 1184px;
     min-height: 594px;
-    background-image: url(../../../images/cover__cover-bg.png);
+    background-image: url(../../../images/cover-bg.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -44,6 +44,7 @@
 
 .cover__link:hover::before {
     opacity: 0.8;
+    transition: .3s;
 }
 
 @media screen and (max-width: 1280px) {

@@ -1,28 +1,28 @@
-.comments__content-subtitle {
+.content-subtitle {
+    font-size: 24px;
     line-height: 35px;
     text-align: center;
     max-width: 640px;
-    font-size: 24px;
     margin: 48px auto 0;
 }
 
 @media (max-width: 768px) {
-    .comments__content-subtitle {
-        font-size: 16px;
-        line-height: 23px;
+    .content-subtitle {
         margin-top: 24px;
         max-width: 343px;
     }
 }
 
 @media (max-width: 425px) {
-    .comments__content-subtitle {
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
         margin-top: 16px;
     }
 }
 
 @media (max-width: 360px) {
-    .comments__content-subtitle {
+    .content-subtitle {
         max-width: 288px;
     }
 }

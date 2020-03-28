@@ -1,17 +1,23 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
-@import url(../blocks/comments/comments.css);
-@import url(../blocks/comment/comment.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/links/links.css);
+@import url(../blocks/list-style/list-style.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header-lang-choose/header-lang-choose.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/content-title/content-title.css);
+@import url(../blocks/content-subtitle/content-subtitle.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video-item/video-item.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comment/comment.css);
 
 /*div,
 main,
@@ -47,16 +53,3 @@ iframe,
 .two-columns__brief {
     border: 1px solid red;
 }*/
-
-.page {
-    font-family: 'Inter', 'Arial', 'sans-serif';
-    color: #fff;
-    font-weight: 400;
-    background-color: #2A2C2F;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
-}

@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 800 px) {
+@media (max-width: 800px) {
     .places {
         max-width: 720px;
     }

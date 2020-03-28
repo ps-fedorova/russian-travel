@@ -2,7 +2,7 @@
     max-width: 1184px;
     min-height: 323px;
     display: flex;
-    margin: 72px auto 0;
+    margin: 68px auto 0;
     width: 100%;
     justify-content: space-between;
 }
@@ -10,6 +10,7 @@
 @media screen and (max-width:1279px) {
     .video__container {
         max-width: 928px;
+        min-height: 288px;
     }
 }
 
@@ -17,22 +18,20 @@
     .video__container {
         max-width: 720px;
         min-height: 200px;
-        margin: 48px auto;
+        margin: 56px auto 0;
     }
 }
 
 @media screen and (max-width:767px) {
     .video__container {
         max-width: 343px;
-        min-height: 200px;
         flex-direction: column;
-        margin: 44px auto 28px;
+        margin-top: 24px;
     }
 }
 
 @media screen and (max-width:374px) {
     .video__container {
         max-width: 288px;
-        margin: 27px auto 22px;
     }
 }

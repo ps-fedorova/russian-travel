@@ -1,0 +1,14 @@
+.header-lang-choose__link {
+    font-size: 24px;
+    line-height: 23px;
+}
+
+
+/*мобильные устройства 1-2 */
+
+@media screen and (max-width: 425px) {
+    .header-lang-choose__link {
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

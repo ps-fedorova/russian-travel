@@ -1,0 +1,13 @@
+@import url(./__link/header-lang-choose__link.css);
+@import url(./__link/_active/header-lang-choose__link_active.css);
+.header-lang-choose {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-column-gap: 18px;
+}
+
+@media screen and (max-width: 425px) {
+    .header-lang-choose {
+        grid-column-gap: 16px;
+    }
+}

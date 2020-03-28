@@ -1,14 +1,14 @@
 .intro__content-row {
-    font-size: 0.875em;
-    line-height: 1.5;
-    padding: 48px 0 24px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 48px;
     margin: 0;
 }
 
 @media screen and (max-width: 425px) {
     .intro__content-row {
-        font-size: 1em;
-        line-height: 169.43%;
-        padding: 32px 0;
+        font-size: 16px;
+        line-height: 27px;
+        padding-top: 32px;
     }
 }
