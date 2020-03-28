@@ -9,15 +9,16 @@
 @media (max-width: 768px) {
     .content-subtitle {
         margin-top: 24px;
-        max-width: 343px;
+        /*На 768 ширина этого подзаголовка должна быть больше*/
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 671px) {
     .content-subtitle {
         font-size: 16px;
         line-height: 23px;
         margin-top: 16px;
+        max-width: 343px;
     }
 }
 
