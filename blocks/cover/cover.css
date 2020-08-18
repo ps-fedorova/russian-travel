@@ -2,21 +2,20 @@
 @import url(./__title/cover__title.css);
 @import url(./__link/cover__link.css);
 
-/*@import url(./__cover-bg/cover__cover-bg.css);*/
-
 @import url(./__text/cover__text.css);
+
 .cover {
-    padding-top: 102px;
+  padding-top: 102px;
 }
 
 @media (max-width: 375px) {
-    .cover {
-        padding-top: 48px;
-    }
+  .cover {
+    padding-top: 48px;
+  }
 }
 
 @media (max-width: 350px) {
-    .cover {
-        padding-top: 64px;
-    }
+  .cover {
+    padding-top: 64px;
+  }
 }

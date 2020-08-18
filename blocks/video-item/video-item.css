@@ -4,47 +4,49 @@
 @import url(./__icon/video__icon.css);
 @import url(./__title/video-item__title.css);
 @import url(./__subtitle/video-item__subtitle.css);
+
 .video-item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    width: calc((100% - 18px)/2);
-    background-position: center;
-    background-size: cover;
-    text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: calc((100% - 18px) / 2);
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
 }
 
 .video-item::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #000000;
-    opacity: 0.5;
-    border-radius: 5px;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000000;
+  opacity: 0.5;
+  border-radius: 5px;
 }
 
 .video-item:hover::before {
-    opacity: 0.8;
-    transition: 0.3s;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 @media (max-width: 767px) {
-    .video-item {
-        width: 100%;
-        min-height: 200px;
-        margin-bottom: 8px;
-    }
-    .video-item:last-child {
-        margin-bottom: 0;
-    }
+  .video-item {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 8px;
+  }
+
+  .video-item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 374px) {
-    .video-item {
-        min-height: 192px;
-    }
+  .video-item {
+    min-height: 192px;
+  }
 }

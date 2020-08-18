@@ -2,39 +2,40 @@
 @import url(./__link/footer__link.css);
 @import url(./__list/footer__list.css);
 @import url(./__nav-item/footer__nav-item.css);
+
 .footer {
-    max-width: calc(1440px - (128px * 2));
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 160px 128px 48px;
+  max-width: calc(1440px - (128px * 2));
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 160px 128px 48px;
 }
 
 
 /*планшет 4, компьютер 5  */
 
 @media screen and (min-width: 801px) and (max-width: 1300px) {
-    .footer {
-        padding: 160px 48px 46px;
-    }
+  .footer {
+    padding: 160px 48px 46px;
+  }
 }
 
 
 /*большой смартфон 3 */
 
 @media screen and (min-width: 725px) and (max-width: 800px) {
-    .footer {
-        padding: 102px 23px 24px;
-    }
+  .footer {
+    padding: 102px 23px 24px;
+  }
 }
 
 
 /*мобильные устройства 1-2 */
 
 @media screen and (max-width: 724px) {
-    .footer {
-        flex-direction: column;
-        padding: 64px 16px 24px;
-    }
+  .footer {
+    flex-direction: column;
+    padding: 64px 16px 24px;
+  }
 }

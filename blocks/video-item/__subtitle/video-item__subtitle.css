@@ -1,27 +1,27 @@
 .video-item__subtitle {
-    font-size: 14px;
-    line-height: 15px;
-    color: #FFFFFF;
-    margin: 0 auto 30px 30px;
-    position: relative;
-    z-index: 3;
+  font-size: 14px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 0 auto 30px 30px;
+  position: relative;
+  z-index: 3;
 }
 
-@media (max-width : 1279px) {
-	.video-item__subtitle {
-        margin: 0 auto 35px 30px;
-    }
+@media (max-width: 1279px) {
+  .video-item__subtitle {
+    margin: 0 auto 35px 30px;
+  }
 }
 
-@media (max-width : 1023px) {
-	.video-item__subtitle {
-        margin: 0 auto 24px 24px;
-    }
+@media (max-width: 1023px) {
+  .video-item__subtitle {
+    margin: 0 auto 24px 24px;
+  }
 }
 
-@media (max-width : 374px) {
-	.video-item__subtitle {
-        margin: 0 auto 16px 16px;
-    }
+@media (max-width: 374px) {
+  .video-item__subtitle {
+    margin: 0 auto 16px 16px;
+  }
 }
 

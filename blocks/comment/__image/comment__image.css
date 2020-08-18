@@ -1,32 +1,32 @@
 .comment__image {
-    border-radius: 50%;
-    max-width: 97px;
-    max-height: 97px;
-    object-fit: cover;
-    object-position: center;
-    margin-top: 72px;
+  border-radius: 50%;
+  max-width: 97px;
+  max-height: 97px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 72px;
 }
 
 @media (max-width: 1023px) {
-    .comment__image {
-        margin: 72px auto 0;
-    }
+  .comment__image {
+    margin: 72px auto 0;
+  }
 }
 
 @media (max-width: 768px) {
-    .comment__image {
-        margin-top: 68px;
-    }
+  .comment__image {
+    margin-top: 68px;
+  }
 }
 
 @media (max-width: 375px) {
-    .comment__image {
-        margin-top: 42px;
-    }
+  .comment__image {
+    margin-top: 42px;
+  }
 }
 
 @media (max-width: 320px) {
-    .comment__image {
-        margin-top: 34px;
-    }
+  .comment__image {
+    margin-top: 34px;
+  }
 }

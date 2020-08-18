@@ -1,7 +1,8 @@
 @import url(./__container/video__container.css);
+
 .video {
-    display: flex;
-    flex-direction: column;
-    padding-top: 102px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 102px;
+  margin: 0 auto;
 }

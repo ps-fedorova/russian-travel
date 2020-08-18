@@ -18,38 +18,3 @@
 @import url(../blocks/video-item/video-item.css);
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/comment/comment.css);
-
-/*div,
-main,
-body,
-header,
-footer,
-section,
-article,
-nav,
-h1,
-h2,
-h3,
-p,
-img,
-a,
-.header__title,
-.logo,
-.lead,
-.lead__figure,
-.section-title,
-.section-subtitle,
-.feinman,
-.feinman__title,
-.cards,
-.cards__image,
-.cards__item,
-.cards__title,
-.cards__description,
-.video,
-.video__iframes,
-iframe,
-.two-columns,
-.two-columns__brief {
-    border: 1px solid red;
-}*/
