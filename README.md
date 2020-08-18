@@ -13,3 +13,4 @@
 *	Ссылкам задано состояние при наведении на них указателя мыши (:hover);
 *	Затемнение background реализовано с помощью псевдоэлемента (selector::before).
 
+[Посмотреть работу](https://ps-fedorova.github.io/russian-travel/index.html)
