@@ -1,12 +1,11 @@
 @import url(./__container/comments__container.css);
-@import url(./__content-subtitle/comments__content-subtitle.css);
-@import url(./__content-title/comments__content-title.css);
+
 .comments {
-    padding-top: 102px;
+  padding-top: 102px;
 }
 
 @media (max-width: 425px) {
-    .comments {
-        padding-top: 64px;
-    }
+  .comments {
+    padding-top: 64px;
+  }
 }
